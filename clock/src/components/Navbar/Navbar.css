@@ -1,0 +1,51 @@
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(226, 204, 204, 1);
+  padding: 10px 10px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.Navbar img {
+  height: 50px;
+  margin-left: 30px;
+}
+
+.Link {
+  display: flex;
+}
+
+.Link a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  margin-right: 70px; 
+}
+
+.Link a:hover {
+  color: #2f00ff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    padding: 5px; 
+    height: 55px; 
+  }
+  
+  .Navbar img {
+    height: 40px; 
+    margin-left: 10px; 
+  }
+  
+  .Link a {
+    font-size: 16px; 
+    margin-right: 10px; 
+  }
+}

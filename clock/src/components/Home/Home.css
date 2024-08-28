@@ -1,0 +1,63 @@
+
+.background-image {
+    position:relative;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)), url('../../assets/Home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.background-image section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 9%;
+}
+
+.word {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    color: rgba(255, 251, 251, 1);
+}
+
+.button {
+    border-radius: 50px;
+    box-shadow: 10px 10px 4px 0px #000;
+    background-color: #e2cccc;
+    height: 70px;
+    width: 170px;
+    color: #000;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .background-image section {
+        padding-top: 50px; 
+    }
+    
+    .word {
+        font-size: 36px; 
+    }
+    
+    .button {
+        min-height: 50px; 
+        max-width: 150px; 
+        font-size: 20px; 
+    }
+}
